@@ -18,7 +18,7 @@ def main():
         intentos = intentos-1
         intentos_fallidos+=1
         if(intentos == 0 ):
-            return print('Programa bloqueado,pc bloqueado, llamando al 911 maquinola')
+            return print('Programa bloqueado')
         print('contraseña incorrecta')
         print('intentos fallidos: ',intentos_fallidos, 'intentos restantes: ', intentos)
         preg = input('ingrese su contraseña:  ')
