@@ -78,6 +78,6 @@ def astrología_en_casa():
             return print("sos de Sagitario")
         elif((fecha>20)& (fecha<31)):
             return print("sos de Capricornio")
-    else: print("ingresa un mes valido gil")
+    else: print("ingresa un mes valido")
     
 astrología_en_casa()
